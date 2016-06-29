@@ -62,5 +62,9 @@ PRODUCT_COPY_FILES += \
     device/lge/g3-common/wcnss/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     device/lge/g3-common/wcnss/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf
 
+# Dalvik-Hack
+PRODUCT_COPY_FILES += \
+    device/lge/vs985/prebuilt/etc/init.d/01dalvik:system/etc/init.d/01dalvik
+
 # common g3
 $(call inherit-product, device/lge/g3-common/g3.mk)
