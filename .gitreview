@@ -1,0 +1,6 @@
+[gerrit]
+host=review.pac-rom.com
+port=29418
+project=android_device_lge_vs985
+defaultbranch=pac-6.0
+
